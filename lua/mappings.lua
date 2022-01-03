@@ -9,4 +9,4 @@ map('n', ';', ':', options)
 
 map('n', '<leader>ve', ':e $MYVIMRC<CR>', options)
 map('n', '<leader>vs', ':so $MYVIMRC<CR>', options)
-map('n', '<leader>p', [[<cmd>lua require('telescope.builtin').find_files({previewer = false})<CR>]], options)
+map('n', '<leader>p', [[<cmd>lua require('telescope.builtin').find_files({ find_command = { 'rg', '--files', '--hidden', '-g', '!.git' }})<CR>]], options)
