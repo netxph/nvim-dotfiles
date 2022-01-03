@@ -1,2 +1,2 @@
-#nvim-dotfiles
+# nvim-dotfiles
 Personal neovim configuration files.
