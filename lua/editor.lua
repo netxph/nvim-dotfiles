@@ -41,6 +41,9 @@ o.updatetime = 300
 o.timeoutlen = 500
 o.showtabline = 2
 o.showmode = false
+o.tabstop = 4
+o.softtabstop = 4
+o.shiftwidth = 4
 
 wo.wrap = false
 wo.number = true
@@ -49,11 +52,9 @@ wo.colorcolumn = '80'
 wo.signcolumn = 'yes'
 wo.cursorline = true
 
-bo.tabstop = 4
 bo.smartindent = true
 bo.autoindent = true
 bo.copyindent = true
-bo.shiftwidth = 4
 bo.expandtab = true
 bo.formatoptions = 'tqnj'
 
